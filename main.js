@@ -50,7 +50,7 @@ class Ball {
 }
 function initBalls() {
     for(let i = 0; i < 30; i++) {
-        balls.push(new Ball(randomNumbers(0, canvas.width), randomNumbers(0, canvas.height / 2), randomNumbers(10, 20), offset));
+        balls.push(new Ball(randomNumbers(0, canvas.width), randomNumbers(0, canvas.height / 2), randomNumbers(15, 30), offset));
     }
     
 }
